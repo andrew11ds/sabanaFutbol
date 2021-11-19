@@ -8,7 +8,7 @@ This project was generated using [Nx](https://nx.dev).
 
 🔎 **Smart, Extensible Build Framework**
 
-##Deployment
+## Deployment
 Project was deployed using [Vercel](https://vercel.com).
 
 Click [here](https://sabana-futbol-v2.vercel.app) to access the deployed application on vercel.
