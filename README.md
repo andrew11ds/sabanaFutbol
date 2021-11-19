@@ -1,7 +1,14 @@
 
 
 # FrontWorkspace
+This project was generated using [Nx](https://nx.dev).
 
+
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+
+🔎 **Smart, Extensible Build Framework**
+
+##Deployment
 Project was deployed using [Vercel](https://vercel.com).
 
 Click [here](https://sabana-futbol-v2.vercel.app) to access the deployed application on vercel.
@@ -11,11 +18,7 @@ Click [here](https://sabana-futbol-v2.vercel.app) to access the deployed applica
 Run `nx test my-app` to execute the unit tests via [Jest](https://jestjs.io).
 For this case it would be: `nx test front-final`
 
-This project was generated using [Nx](https://nx.dev).
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
-
-🔎 **Smart, Extensible Build Framework**
 
 ## Adding capabilities to your workspace
 
