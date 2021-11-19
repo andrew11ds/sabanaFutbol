@@ -35,12 +35,14 @@ export function Teams(props: TeamsProps) {
           <div className="col-auto p-3 block-center">
             <div className="text-center image-size">
               <Link href="/index">
+                <div className={styles.img__content}>
                 <img
                   src={logo}
                   className="img-responsive"
                   width="128"
                   height="128"
                 />
+                </div>
               </Link>
             </div>
           </div>

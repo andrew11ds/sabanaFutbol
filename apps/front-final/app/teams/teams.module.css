@@ -1,10 +1,15 @@
-.text-subtitle {
-    font-style: italic;
-}
-
 .container {
     
 }
+
+
 .container__list{
 list-style-type: none;
+}
+
+.img__content{
+
+}
+.img__content:hover {
+  cursor: pointer;
 }

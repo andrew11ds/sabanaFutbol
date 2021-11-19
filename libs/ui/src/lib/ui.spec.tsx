@@ -1,10 +1,9 @@
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 
 import Ui from './ui';
-
-describe('Ui', () => {
-  it('should render successfully', () => {
-    const { baseElement } = render(<Ui />);
-    expect(baseElement).toBeTruthy();
-  });
-});
+test('renders Title', () => {
+  render(<Ui />);
+  expect(
+    screen.getByRole('heading', { name: /sabana futbol/i })
+  ).toBeTruthy();
+ });

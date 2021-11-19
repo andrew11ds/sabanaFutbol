@@ -10,34 +10,14 @@ export function Index() {
    *
    * Note: The corresponding styles are in the ./index.css file.
    */
-  const logo="/Images/logoFutbol.png"; 
+ 
   return (
-    <div className={styles.page}>
-      <header>
-      <div className="row e justify-content-center align-items-center ">
-        <div className="col-auto p-3 block-center">
-          <div className="text-center image-size">
-            <Link href="/index">
-              <img src={logo} className="img-responsive" width="128" height="128"/>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <Ui title="Sabana Futbol" showTitle />
-      </header>
-      <nav>
-        <ul>
-          <div className="d-grid gap-2 mb-4">
-            <Link href="/countries">
-              <button type="button" className="btn btn-primary btn-lg btn-block">
-                Show countries
-              </button>
-            </Link>
-          </div>
-        </ul>
-      </nav>
+   
+     
+      <Ui  />
+     
       
-    </div>
+   
   );
 }
 
