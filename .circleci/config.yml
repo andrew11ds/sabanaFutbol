@@ -1,0 +1,14 @@
+version: '2.1'
+orbs:
+  aws-s3: circleci/aws-s3@3.0
+jobs:
+  test:
+    docker:
+      - image: 'circleci/node:16.13.0-browsers'
+    steps:
+      - checkout
+      - run: npm install && npm run test front-final 
+workflows:
+  test:
+    jobs:
+      - test
