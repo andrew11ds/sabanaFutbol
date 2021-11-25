@@ -18,7 +18,7 @@ This project can search for the countries that have active soccer teams, and has
 Project has continuous integration thanks to circleCI
 
 ## Deployment
-Project was deployed using [Vercel](https://vercel.com).
+Project has continuous delivery and was deployed using [Vercel](https://vercel.com).
 
 Click [here](https://sabana-futbol-v2.vercel.app) to access the deployed application on vercel.
 
