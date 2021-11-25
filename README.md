@@ -8,14 +8,16 @@ This project was generated using [Nx](https://nx.dev).
 🔎 **Smart, Extensible Build Framework**
 
 ## API
-
 The API used in the project is the [SportdataAPI](https://app.sportdataapi.com/documentation) for education purposes.
+
+## Flag images
+This project makes use of flag images that are requested from [flagpedia](https://flagpedia.net/download/api).
 
 ## Features
 This project can search for the countries that have active soccer teams, and has the possibility to access the names, and logos of those teams (If available).
 
 ## CircleCI
-Project has continuous integration thanks to circleCI
+Project has continuous integration thanks to circleCI.
 
 ## Deployment
 Project has continuous delivery and was deployed using [Vercel](https://vercel.com).
